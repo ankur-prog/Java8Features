@@ -25,11 +25,22 @@ public class LambdaExample {
         eat(goat);
         //calling the eat method with a lambda expression
         eat(() -> System.out.println("Rabbit is eating carrot"));
+        //calling the add method with a lambda expression
+        Addable addable = (a, b) -> {
+            return a + b;
+
+        };
+        System.out.println(addable.add(10, 20));
+        //calling the add method with a lambda expression
+        Addable addable1 = (a, b) -> a + b;
+        System.out.println(addable1.add(100, 200));
+
     }
     static void  eat(Animal animal) {
         animal.run();
         animal.eat();
         animal.sleep();
     }
+
 
 }
