@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/LambdaExpression/pom.xml" />
+        <option value="$PROJECT_DIR$/FunctionalInterface/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
