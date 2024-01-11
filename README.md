@@ -5,13 +5,13 @@ Welcome to the Java 8 Features Learning Repository! This repository is designed 
 ## Table of Contents
 
 1. [Introduction to Java 8](#introduction-to-java-8)
-2. [Lambda Expressions](#LambdaExpression)
-3. [Functional Interfaces](#FunctionalInterface)
-4. [Streams API](#streams-api)
-5. [Default Methods](#default-methods)
-6. [Method References](#method-references)
-7. [Optional](#optional)
-8. [New Date and Time API](#new-date-and-time-api)
+2. [Lambda Expressions](#lambda-expressions)
+4. [Functional Interfaces](#functional-interfaces)
+5. [Streams API](#streams-api)
+6. [Default Methods](#default-methods)
+7. [Method References](#method-references)
+8. [Optional](#optional)
+9. [New Date and Time API](#new-date-and-time-api)
 
 ## Introduction to Java 8
 
@@ -34,7 +34,7 @@ Runnable oldRunnable = new Runnable() {
 Runnable newRunnable = () -> System.out.println("New way to run a thread");
 ```
 
-For detailed examples and explanations, refer to the [Lambda Expressions](./lambda-expressions) section.
+For detailed examples and explanations, refer to the [Lambda Expressions](./LambdaExpression) section.
 
 ## Functional Interfaces
 
@@ -50,7 +50,7 @@ interface MyFunctionalInterface {
 MyFunctionalInterface myFunction = () -> System.out.println("Executing myMethod");
 ```
 
-Explore more in the [Functional Interfaces](./functional-interfaces) section.
+Explore more in the [Functional Interfaces](./FunctionalInterface) section.
 
 ## Streams API
 
