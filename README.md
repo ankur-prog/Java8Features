@@ -5,8 +5,8 @@ Welcome to the Java 8 Features Learning Repository! This repository is designed 
 ## Table of Contents
 
 1. [Introduction to Java 8](#introduction-to-java-8)
-2. [Lambda Expressions](#lambda-expressions)
-3. [Functional Interfaces](#functional-interfaces)
+2. [Lambda Expressions](#LambdaExpression)
+3. [Functional Interfaces](#FunctionalInterface)
 4. [Streams API](#streams-api)
 5. [Default Methods](#default-methods)
 6. [Method References](#method-references)
