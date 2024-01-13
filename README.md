@@ -9,7 +9,7 @@ Welcome to the Java 8 Features Learning Repository! This repository is designed 
 4. [Functional Interfaces](#functional-interfaces)
 5. [Streams API](#streams-api)
 6. [Default Methods](#default-methods)
-7. [Method References](#method-references)
+7. [Method References](#MethodReference)
 8. [Optional](#optional)
 9. [New Date and Time API](#new-date-and-time-api)
 

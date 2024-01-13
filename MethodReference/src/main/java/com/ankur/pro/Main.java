@@ -4,6 +4,7 @@ import java.util.function.BiFunction;
 
 /**
  * Created by ankur on 11/01/2024
+ * <p>
  * what is method reference ? it is used to refer method of functional interface .
  *
  */
