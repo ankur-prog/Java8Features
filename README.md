@@ -67,7 +67,7 @@ long count = words.stream()
 System.out.println("Number of words with length > 3: " + count);
 ```
 
-Delve deeper into the [Streams API](./streamsAPI) section for comprehensive examples.
+Delve deeper into the [Streams API](./streamAPI) section for comprehensive examples.
 
 ## Default Methods
 
