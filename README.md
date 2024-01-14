@@ -120,7 +120,7 @@ Optional<String> optionalName = Optional.ofNullable(name);
 String result = optionalName.orElse("DefaultName");
 ```
 
-Check out the [Optional](./optional) section for detailed examples.
+Check out the [Optional](./OptionalExample) section for detailed examples.
 
 ## New Date and Time API
 
