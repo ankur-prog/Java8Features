@@ -1,4 +1,5 @@
 package com.ankur.functional;
+import java.util.Date;
 import java.util.function.Supplier;
 
 /*
@@ -80,5 +81,13 @@ public class SupplierDemo {
             return names[x];
         };
         System.out.println(supplier8.get());
+
+        // write a function to return current date and time
+        Supplier<String> supplier9 = () -> {
+            Date date = new Date();
+            return date.toString();
+        };
+        System.out.println("Current date and time is : ");
+        System.out.println(supplier9.get());
 }
 }
